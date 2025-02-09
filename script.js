@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
 
     if (username === "admin" && password === "hanis123") {
         alert("Login successful!");
-        window.location.href = "index.html";
+        window.location.href = "profile.html";
     } else {
         alert("Invalid credentials, try again.");
     }
